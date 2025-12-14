@@ -1,0 +1,14 @@
+
+ h1{
+     
+     
+    animation: defilement 12s linear infinite; /* animation de défilement */  
+    display: inline-block; /* pour que l'animation fonctionne correctement */
+    padding-left: 75%; /* pour démarrer l'animation hors de l'écran */
+    white-space: nowrap; /* empêcher le retour à la ligne */;
+    }
+    
+     @keyframes defilement {
+      from { transform: translateX(0); } 
+      to { transform: translateX(-100%); }
+    }
